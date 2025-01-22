@@ -216,7 +216,6 @@ const loadBitmap_ = function (costume, runtime, _rotationCenter) {
                 costume.dataFormat = storage.DataFormat.PNG;
                 costume.assetId = costume.asset.assetId;
                 costume.md5 = `${costume.assetId}.${costume.dataFormat}`;
-                console.log('[ERWAN] loadBitmap_ costume', costume);
             };
 
             if (!fetched.assetMatchesBase) {
